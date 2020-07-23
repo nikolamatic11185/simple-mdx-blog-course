@@ -14,8 +14,7 @@ export const ContentWrapper = styled.main`
          }
 
          @media ${props => props.theme.breakpoints.mobile} {
-           ${props =>
-             padding: ${props =>
-           `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
+           padding: ${props =>
+             `${props.theme.spacings.medium} ${props.theme.spacings.large}`};
          }
        `
